@@ -292,7 +292,7 @@ class _Home_screenState extends State<Home_screen> {
                       ),
                     );
                   } else {
-                    return Container();
+                    return Center(child: CircularProgressIndicator(color: Colors.purple,));
                   }
                 },
               )
